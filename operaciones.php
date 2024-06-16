@@ -12,16 +12,6 @@ switch ($operacion) {
     case 'restar':
         $resultado = $numero1 - $numero2;
         break;
-    case 'multiplicar':
-        $resultado = $numero1 * $numero2;
-        break;
-    case 'dividir':
-        if ($numero2 != 0) {
-            $resultado = $numero1 / $numero2;
-        } else {
-            $resultado = "Error: No se puede dividir por cero";
-        }
-        break;
 }
 
 echo $resultado;
